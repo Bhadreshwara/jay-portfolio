@@ -1,2 +1,1 @@
-# expressjs-portfolio
 # jay-portfolio
