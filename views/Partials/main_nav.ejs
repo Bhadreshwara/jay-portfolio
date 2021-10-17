@@ -1,10 +1,16 @@
 <!--Navigation section-->
+  <script src="/public/Scripts/app.js"></script>
+  <script src="/jquery/dist/jquery.min.js"></script>
+  <script src="/bootstrap/dist/bootstrap.min.css"></script>
+
+
   <div class="container">
     <nav class="navbar navbar-expand-sm navbar-light"">
         <a href="./home" class="navbar-brand">
             <img src="/Assets/images/j.png" style="width: 50px; height: 50px">
         </a>
         <button 
+        onclick="myFunction()"
         class="navbar-toggler" 
         type="button" 
         data-toggle="collapse" 
@@ -12,9 +18,9 @@
         aria-controls="navbarSupportedContent" 
         aria-expanded="false" 
         aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>   
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" onclick="myFunction()">
             <ul class="navbar-nav ms-auto text-center">
 
                 <% if (title == "Home") { %> 
@@ -42,3 +48,14 @@
         </div>
     </nav>
 </div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("navbarSupportedContent");
+    if (x.style.display === "block") {
+            x.style.display = "none";
+    } else {    
+            x.style.display = "block";
+    }
+}
+</script>

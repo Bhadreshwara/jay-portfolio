@@ -232,7 +232,7 @@ span {
   text-align: center;
   letter-spacing: 15px;
   text-transform: uppercase;
-  color: #807879;
+  color: #e7c941;
   font-weight: bold;
 }
 
@@ -251,9 +251,9 @@ span {
   border-radius: 0.25rem;
   max-width: 100%;
   text-align: center;
-  width: 60%;
+  width: 80%;
   position: absolute;
-  left: 20%;
+  left: 10%;
 }
 
 .fcf-form-class {
@@ -408,11 +408,12 @@ input[type="button"].fcf-btn-block {
   }
 
   .intro-image {
-    width: 270px;
+    width: 250px;
     padding: 1rem;
     margin-top: 5px;
-    position: absolute;
-    left: 50%;
+    position: relative;
+    left: 45%;
+    top: -20%;
   }
   img.my-img {
     display: block;
@@ -421,9 +422,12 @@ input[type="button"].fcf-btn-block {
   }
 
   .intro-content {
-    width: 100%;
+    width: auto;
+    height: auto;
     margin: auto;
-    top: 60%;
+    top: 50%;
+    position: relative;
+    font-size: 18px;
   }
 
   .intro-content h1,
@@ -452,7 +456,7 @@ input[type="button"].fcf-btn-block {
   }
 
   .about-showcase {
-    height: 37.4vh;
+    height: auto;
   }
 
   .about-content {
@@ -527,7 +531,40 @@ input[type="button"].fcf-btn-block {
     width: 100%;
   }
   .contact-showcase {
-    height: 73.4vh;
+    height: auto;
+  }
+
+  .project-title {
+    width: 100%;
+    padding: 8px;
+    margin-top: 45px;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    color: #36bd73;
+    font-weight: bold;
+  }
+
+  .service-title {
+    width: 100%;
+    padding: 8px;
+    margin-top: 45px;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #e13a8d;
+  }
+
+  .project-subtitle,
+  .service-subtitle {
+    width: 100%;
+    padding: 5px;
+    margin-top: -5px;
+    letter-spacing: 5px;
+    font-size: 17px;
   }
 
   .contact-title {
@@ -538,7 +575,7 @@ input[type="button"].fcf-btn-block {
     text-align: center;
     letter-spacing: 15px;
     text-transform: uppercase;
-    color: #807879;
+    color: #e7c941;
     font-weight: bold;
   }
 }
@@ -551,7 +588,7 @@ input[type="button"].fcf-btn-block {
   }
 
   .about-showcase {
-    height: 110vh;
+    height: auto;
   }
 
   .about-title {
